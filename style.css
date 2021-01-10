@@ -1,0 +1,111 @@
+/*whole page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*body */
+  body{
+    background-image: url(images/colors.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.content{
+  align-content: center;
+}
+
+
+.w75{
+  width: 75% !important;
+}
+
+/*Color picker*/
+ul{
+  padding: 12px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 12px;
+  list-style:none;
+}
+  
+  ul li{
+    padding-bottom: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+  }
+  
+  /*color button */
+  .color-btn{
+    padding-bottom: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: grey;
+  }
+
+  /*rating */
+.rating-icon {
+    margin: 1px;
+    padding: 0px;
+    width: 16px;
+}
+
+/* text */
+.my-small-text {
+    font-size: 12px;
+}
+
+.my-mid-text {
+    font-size: 14px;
+}
+
+.my-span {
+    width: min-content;
+    border: 1px solid black !important;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+.my-succeess {
+    background-color: rgb(200, 214, 197);
+    color: black;
+}
+
+.my-danger {
+    background-color: rgb(219, 197, 195);
+    color: black;
+}
+
+/*modal*/
+.modal {
+    transform: scale(.3);
+    transition: all .3s ease-in;
+}
+
+.modal.show {
+    opacity: 1;
+    transform: scale(1);
+    transition: all .3s ease-in;
+}
+
+.my-min {
+    width: min-content !important;
+    justify-content: center;
+}
+
+.my-min-container {
+    display: inline-flex
+}
+
+.my-table-p {
+    line-height: 35px;
+}
